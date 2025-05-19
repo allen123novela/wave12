@@ -1,101 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unum Disability Call Guide</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Unum Call Guide</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Unum Disability Call Guide</h1>
-    </header>
+  <header>
+    <h1>Unum Disability Call Reference Guide</h1>
+  </header>
 
-    <nav>
-        <ul>
-            <li><a href="#vmi">VMI</a></li>
-            <li><a href="#bh">Behavioral Health</a></li>
-            <li><a href="#surgery">Surgery</a></li>
-            <li><a href="#delivery">Delivery</a></li>
-            <li><a href="#lvm">LVM Spiels</a></li>
-            <li><a href="#forms">Form References</a></li>
-        </ul>
-    </nav>
+  <main>
+    <section class="left-panel">
+      <h2>No Dedicated #</h2>
+      <p>No Ded CCC#: <strong>1-800-858-6843</strong><br>Fax#: <br>Mailing Add:</p>
 
-    <main>
-        <section id="vmi">
-            <h2>Verify Medical Info (VMI)</h2>
-            <p>Call script and questions:</p>
-            <ul>
-                <li>Was patient seen for (diagnosis) or after (LDW)?</li>
-                <li>First and last visit after LDW?</li>
-                <li>Hospitalization or SX?</li>
-                <li>TX Plan?</li>
-                <li>R&Ls?</li>
-                <li>ERTW?</li>
-            </ul>
-        </section>
+      <h2>With Dedicated #</h2>
+      <p>Ded#: <br>Fax#: <br>Mailing Add:</p>
 
-        <section id="bh">
-            <h2>Behavioral Health (BH)</h2>
-            <p>Behavioral health verification questions:</p>
-            <ul>
-                <li>Seen after LDW for DX?</li>
-                <li>FOV, LOV, NOV dates?</li>
-                <li>Current symptoms?</li>
-                <li>Referred to PHP/IOP?</li>
-                <li>Psychiatric R&Ls?</li>
-                <li>ERTW?</li>
-            </ul>
-        </section>
+      <h2>VMI</h2>
+      <p><strong>All questions were asked. Information provided by APO is displayed in bold text.</strong><br>
+      Diagnosis(es): <br>
+      Date advised to stop working: <br>
+      First office visit after LDW: <br>
+      LOV & NOV: <br>
+      SX name, date & type (open or laparoscopic)/CPT: <br>
+      Hospital Dates: <br>
+      TX Plan/Med Prescribed: <br>
+      R&Ls: <br>
+      ERTW:</p>
 
-        <section id="surgery">
-            <h2>Surgery Verification</h2>
-            <ul>
-                <li>Did patient have SX for (Diagnosis) after (LDW)?</li>
-                <li>SX type: Open or Lap?</li>
-                <li>Inpatient or Outpatient?</li>
-                <li>ERTW?</li>
-            </ul>
-        </section>
+      <h2>BH VMI</h2>
+      <p><strong>All questions were asked. Information provided by APO is displayed in bold text.</strong><br>
+      Diagnosis(es): <br>
+      Current Symptoms: <br>
+      First office visit after LDW: <br>
+      LOV & NOV: <br>
+      Date advised to stop working: <br>
+      Hospital Dates: <br>
+      TX Plan/Current Meds: <br>
+      Referred to PHP/IOP; Time Frame: <br>
+      Current Psychiatric R&Ls: <br>
+      ERTW:</p>
 
-        <section id="delivery">
-            <h2>Delivery Verification</h2>
-            <ul>
-                <li>DEL Date: Vaginal or C-Section?</li>
-                <li>Admission and Discharge Dates?</li>
-                <li>R&Ls after delivery?</li>
-                <li>Complications or normal?</li>
-            </ul>
-        </section>
+      <h2>Verify Sx</h2>
+      <p><strong>All questions were asked. Information provided by APO is displayed in bold text.</strong><br>
+      Sx Date: <br>
+      Sx name of procedure/CPT: <br>
+      Sx type of procedure (open/Lap): <br>
+      Inpatient? Dates in hospital: <br>
+      NOV/Post OP: <br>
+      ERTW:</p>
 
-        <section id="lvm">
-            <h2>LVM Spiels</h2>
-            <h3>Standard:</h3>
-            <p>"This is ALLEN with Unum Disability... reference (claim number)."</p>
+      <h2>Verify Del</h2>
+      <p><strong>All questions were asked. Information provided by APO is displayed in bold text.</strong><br>
+      Del Date and Type of Del: <br>
+      Hospital Admission and Discharge dates: <br>
+      Date Patient was advised to stop working: <br>
+      Complications/reason EE was placed OOW: <br>
+      R&Ls as of OOW date:</p>
+    </section>
 
-            <h3>With Dedicated Line:</h3>
-            <p>"We are faxing over paperwork. If forms are returned, no call is needed..."</p>
+    <aside class="right-panel">
+      <h3>Subject Line Format</h3>
+      <p>
+        VMI = State + Verify Med Info<br>
+        Surgery = State + Verify Sx<br>
+        Del = State + Verify Del or Verify Delivery<br>
+        BH = State + BH Verify Med Info<br><br>
+        *Additional: When calling EE = State + Verify AP Info
+      </p>
 
-            <h3>EE Call:</h3>
-            <p>"I’m working on your short-term disability claim. I need your AP’s info..."</p>
-        </section>
+      <div class="lower-right">
+        <h3>Form Library</h3>
+        <p>
+          <strong>VMI</strong><br>
+          APS - CL 1104 - APS<br>
+          IMC - CL - 1314<br><br>
 
-        <section id="forms">
-            <h2>Form References</h2>
-            <ul>
-                <li><strong>APS:</strong> Attending Physician Statement (CL 1104)</li>
-                <li><strong>IMC:</strong> Integrated Medical Certification (CL 1314)</li>
-                <li><strong>SX GPN:</strong> Short Term Disability Physician Narrative Surgery (CL 1275mm)</li>
-                <li><strong>Del GPN:</strong> Maternity (CL 1274)</li>
-                <li><strong>BH STD ARS:</strong> Group Disability BH - APS (CL 1178)</li>
-                <li><strong>State-Specific:</strong> CFRA, MA PML, OR PML, CO Famili</li>
-            </ul>
-        </section>
-    </main>
+          <strong>Surgery</strong><br>
+          Sx GPN - CL - 1275mm<br>
+          Del GPN - CL - 1274<br><br>
+
+          <strong>Behavioral</strong><br>
+          California: CFRA<br>
+          Massachusetts: CL - 1263 - MA - APS<br>
+          Oregon: CL - 1329 - OR - APS<br>
+          Colorado: CL - 1334 - CO - APS
+        </p>
+      </div>
+    </aside>
 
     <footer>
-        <p>&copy; 2025 Unum Disability Reference Portal</p>
+      <h3>LVM Spiel</h3>
+      <p>This is ALLEN with Unum Disability, calling from recorded line...</p>
+
+      <h3>LVM with Dedicated #</h3>
+      <p>This is ALLEN with Unum Disability, calling from recorded line...</p>
+
+      <h3>2nd Call LVM</h3>
+      <p>This is ALLEN with Unum Disability, calling from recorded line...</p>
+
+      <h3>EE LVM</h3>
+      <p>This is ALLEN LIAM with Unum Disability, calling from recorded line...</p>
     </footer>
+  </main>
 </body>
 </html>
